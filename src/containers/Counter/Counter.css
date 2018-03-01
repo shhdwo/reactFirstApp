@@ -1,0 +1,11 @@
+.counter-container button{
+    margin: 15px;
+    width: 150px;
+}
+
+.counter-container .jumbotron{
+    margin: 0 auto;
+    width:350px;
+    padding: 15px;
+    margin-top: 20px;
+}

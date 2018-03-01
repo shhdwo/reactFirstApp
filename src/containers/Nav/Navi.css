@@ -1,0 +1,19 @@
+.navbar {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.navbar-nav {
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.navbar-nav a {
+    padding: 15px;
+    color: rgb(14, 94, 100);
+}
+
+.navbar-nav a:hover {
+    text-decoration: none;
+    color: rgb(21, 181, 192);
+}

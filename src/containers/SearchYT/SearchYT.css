@@ -1,0 +1,24 @@
+.search-container{
+    margin-top: 20px;
+}
+
+.search-container .form-inline{
+    margin: 0 auto;
+    width: 370px;
+}
+
+.media{
+    margin: 0 auto;
+    margin-top:20px;
+    font-size: 80%;
+    width: 600px;
+}
+
+.media-left{
+    padding: 10px;
+}
+
+.media-body{
+    text-align: left;
+    padding: 10px;
+}
