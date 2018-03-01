@@ -13,7 +13,11 @@
     "react-scripts": "1.1.1",
     "reactstrap": "^5.0.0-beta",
     "redux": "^3.7.2",
-    "youtube-api-search": "0.0.5"
+    "youtube-api-search": "0.0.5",
+    "babel-eslint": "^8.2.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.66.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,11 +25,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "flow": "flow"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.2",
-    "babel-preset-flow": "^6.23.0",
-    "flow-bin": "^0.66.0"
   }
 }
