@@ -8,6 +8,7 @@ import './App.css';
 import Navi from '../Nav/Navi';
 import SearchYT from '../SearchYT/SearchYT';
 import Counter from '../Counter/Counter';
+import About from '../../components/About';
 
 class App extends Component<{}> {
   render() {
@@ -18,6 +19,7 @@ class App extends Component<{}> {
           <Switch>
             <Route path="/counter" component={Counter} />
             <Route path="/youtube-search" render={() => <SearchYT title="Search YT here" />} />
+            <Route path="/about" component={About} />
             <Route render={() => "Not found"} />
           </Switch>
         </Container>
